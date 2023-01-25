@@ -78,7 +78,7 @@ export function Post({ author, publishedAt, content }) {
                     required
                 />
                 <footer>
-                    <button type='submit'               disabled={isNewCommentEmpty}>
+                    <button type='submit' disabled={isNewCommentEmpty}>
                         Publicar
                     </button>
                 </footer>
